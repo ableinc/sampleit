@@ -3,10 +3,10 @@
 Designed for producers, beatmakers and music creators. Grab an audio sample from Youtube, analyze it, and get its BPM and Scale. Powered by Able.
 
 ### Installation
-Download the SampleIt desktop application for:
+Download the SampleIt Desktop Application for:
 
-* [MacOS (x64)](#)
-* [Windows (x86)](#)
+* [MacOS (x64)](https://able.sfo2.digitaloceanspaces.com/SampleIt-darwin-x64-1.0.0.zip)
+* Windows (x86) - ***coming soon***
 
 ### Features
  * BPM (beats per minute) finder
@@ -16,6 +16,7 @@ Download the SampleIt desktop application for:
  * Open source (Have ideas? Create a PR!)
 
  ### Coming Soon
+ * **WINDOWS (x86) version**
  * Login to your Able.digital account, allowing you to sync your samples. Making them accessible in the future.
  * Expanding sample services beyond Youtube - provide any audio/video url from the web.
  * Desktop notifications.
