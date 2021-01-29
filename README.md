@@ -8,6 +8,11 @@ Download the SampleIt Desktop Application for:
 * [MacOS (x64)](https://able.sfo2.digitaloceanspaces.com/SampleIt-darwin-x64-1.0.0.zip)
 * Windows (x86) - ***coming soon***
 
+### Screenshots
+![sampleit-macos-screenshot](https://able.sfo2.digitaloceanspaces.com/sampleit-app-screenshot-macos.png)
+![sampleit-macos-screenshot2](https://able.sfo2.digitaloceanspaces.com/sampleit-macos-screenshot2.png)
+![sampleit-macos-screenshot3](https://able.sfo2.digitaloceanspaces.com/sampleit-macos-screenshot3.png)
+
 ### Features
  * BPM (beats per minute) finder
  * Note/Scale finder
