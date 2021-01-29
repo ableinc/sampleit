@@ -1,0 +1,28 @@
+{
+  "name": "SampleIt",
+  "version": "1.0",
+  "description": "Designed for producers, beatmakers and music creators. Grab an audio sample from Youtube, analyze it, and get its BPM and Scale. Powered by Able.",
+  "permissions": ["declarativeContent", "storage", "*://*.kope.online/*", "http://localhost:*/*", "notifications"],
+  "options_page": "views/options.html",
+  "default_locale": "en",
+  "background": {
+    "scripts": ["javascript/background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "views/popup.html",
+    "default_icon": {
+      "16": "images/vinyl-16.png",
+      "32": "images/vinyl-32.png",
+      "64": "images/vinyl-64.png",
+      "128": "images/vinyl-128.png"
+    }
+  },
+  "icons": {
+    "16": "images/vinyl-16.png",
+    "32": "images/vinyl-32.png",
+    "64": "images/vinyl-64.png",
+    "128": "images/vinyl-128.png"
+  },
+  "manifest_version": 2
+}

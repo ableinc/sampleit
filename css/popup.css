@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+
+body {
+  width: 300px;
+  height: 400px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2210775-jpeg.jpg");
+}
+
+#title-bar, h2 {
+  text-align: center;
+}
+
+#contact-us {
+  padding: 10px 20px;
+  padding-top: 5px;
+  border: 2px solid rgba(0, 0, 0, 1);
+  box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px rgba(0,0,0,1)
+}
+
+#entryWarning {
+  color: red;
+  font-size: 15px;
+  display: none;
+  text-align: center;
+}
+
+#loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 14pt;
+  line-height: 14pt * 2;
+  font-family: 'Fjalla One';
+  margin-bottom: 14pt * 2;
+  border: none;
+  border-bottom: 5px solid rgba(0, 0, 0, 1);
+  background: #f8f4e5;
+  min-width: 250px;
+  padding-left: 5px;
+  outline: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+input:focus {
+  border-bottom: 5px solid #ffa580;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  line-height: 14pt * 2;
+  padding: 0 20px;
+  background: #ffa580;
+  letter-spacing: 2px;
+  transition: .2s all ease-in-out;
+  outline: none;
+  border: 1px solid rgba(0,0,0,1);
+  box-shadow: 3px 3px 1px #95a4ff, 3px 3px 1px 1px rgba(0,0,0,1); 
+}
+
+button:hover  {
+  background: rgba(0,0,0,1);
+  color: white;
+  border: 1px solid rgba(0,0,0,1);
+}
+
+::selection {
+  background: #ffc8ff
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  border-bottom: 5px solid #95a4ff;
+  -webkit-text-fill-color: #2A293E;
+  box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
