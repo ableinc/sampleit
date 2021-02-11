@@ -5,7 +5,7 @@ Designed for producers, beatmakers and music creators. Grab an audio sample from
 ### Installation
 Download the SampleIt Desktop Application for:
 
-* [MacOS (x64)](https://able.sfo2.digitaloceanspaces.com/SampleIt-darwin-x64-1.0.0.zip)
+* [MacOS (x64)](https://downloads.kope.online/SampleIt-darwin-x64-1.0.0.zip)
 * Windows (x86) - ***coming soon***
 
 ### Screenshots
